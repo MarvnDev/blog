@@ -1,0 +1,334 @@
+:root {
+    --color:#191825;
+}
+body{
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.prueba, .other{
+
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(https://elsalvadorviajar.com/wp-content/uploads/2021/11/SAN-SALVADOR-Departamentos-de-El-Salvador.jpg);
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+}
+.inicio{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 40px;
+}
+.inicio>p{
+    color: white;
+
+}
+#titulo{
+    color:white;
+}
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+p{
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+a{
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: var(--color);
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+}
+a:hover{
+    background-color: #E384FF;
+    color: #191825;
+    transition: all 0.3s ease;
+}
+
+footer{
+    background-color: #FFA3FD;
+    position: absolute;
+    width: 100%;
+    color: #191825;
+    padding: 20px;
+    text-align: center;
+}
+.blank, .other{
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+}
+.container-second{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Panoramica_del_Centro_Histórico_de_San_Salvador.jpg/2560px-Panoramica_del_Centro_Histórico_de_San_Salvador.jpg);
+    background-attachment: fixed;
+    height: 1200px;
+    
+}
+h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+    padding: 1em;
+    
+}
+.card{
+    margin: 0.5em;
+    border:none;
+    position: static;
+    
+}
+.card > a{
+    margin: 1em;
+    
+}
+.item{
+    margin: 1em;
+    display: flex;
+    max-width: 320px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+.img{
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: conver;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 0.3em;
+}
+.img-first{
+    background-image: url('../img/Sitios\ arqueologicos\ de\ El\ Salvador/joya_de_ceren3.jpg');
+    background-size: cover;
+
+}
+.img-second{
+    background-image: url('../img/Centro\ Historico/catedral.jpg');
+    background-size: cover;
+    
+}
+.img-third{
+    background-image: url('../img/playas/metalio.jpg');
+    background-size: cover;
+}
+.img-fourth{
+    background-image: url('../img/cultura-arte/portada.png');
+    background-size: cover;
+}
+.second{
+    flex-direction: row;
+    gap: 1.6em;
+    
+}
+.container-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5em;
+}
+.text-center{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+table td{
+    text-align: justify;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.class-table{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+footer{
+    background-color: #865DFF;
+    position: absolute;
+    width: 100%;
+    color: #191825;
+    padding: 20px;
+    text-align: center;
+}
+/* FORM*/
+
+.wrapper{
+    background-color:#E384FF;
+    padding: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: white;
+    
+    border-radius: 1.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+
+    height: 400px;
+    width: 50%;
+    margin: 3em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+input{
+    width: 98%;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    
+}
+textarea{
+    width: 98%;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px #6c63ff;
+}
+input[name=enviar]{
+    background-color: var(--color);
+    color:white;
+    margin-top: 1em;
+    height: 5em;
+}
+input[name=enviar]:hover{
+    background-color: #E384FF;
+    color: #191825;
+    transition: all 0.3s ease;
+}
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+    .wrapper{
+        padding: 2em;
+    }
+    form{
+        height: 500px;
+        width: 95%;
+    }
+}
+
+/*menu*/
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191825;
+    color: #fff;
+    padding: 5px;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-item {
+    background-color: #191825;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.title{
+    padding: 20px;
+}
+.menu li a:hover {
+    background-color: #FFA3FD;
+    color: #191825;
+}
+
+@media screen and (max-width: 768px) {
+    .burger-menu {
+    display: block;
+    }
+    .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #191825;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transition: all 0.3s ease;
+    }
+    .menu li {
+    margin: 0;
+    width: 100%;
+    }
+    .menu li a {
+    padding: 10px;
+    width: 100%;
+    justify-items: start;;
+    /* border-bottom: 1px solid #fff; */
+    }
+    .menu li:last-of-type a {
+    border-bottom: none;
+    }
+    .menu.show {
+    display: flex;
+    }
+    .container-second{
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5em;
+        height: auto;
+    }
+
+}
+

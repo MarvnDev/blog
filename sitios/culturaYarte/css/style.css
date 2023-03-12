@@ -1,0 +1,362 @@
+:root {
+    --color:#191825;
+}
+body{
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.prueba, .other{
+
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../../../img/cultura-arte/container.jpg');
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+}
+.inicio{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    padding: 1em;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 40px;
+}
+#titulo{
+    color:white;
+}
+h1{
+    margin:0.5em;
+    font-size: 700;
+}
+p{
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+    text-align: justify;
+
+}
+
+a{
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: var(--color);
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+}
+a:hover{
+    background-color: #E384FF;
+    color: #191825;
+    transition: all 0.3s ease;
+}
+
+footer{
+    background-color: #E384FF;
+    position: absolute;
+    width: 100%;
+    color: #191825;
+    padding: 20px;
+    text-align: center;
+}
+.blank, .other{
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+}
+.container-second{
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Panoramica_del_Centro_Histórico_de_San_Salvador.jpg/2560px-Panoramica_del_Centro_Histórico_de_San_Salvador.jpg); */
+    background-color: white;
+    background-attachment: fixed;
+    height: auto;
+    padding: 9em;
+    margin-bottom: 20px;
+    /* margin-top: 9em;
+    margin-bottom: 9em; */
+    
+}
+.container-second>section{
+    padding-bottom: 9rem;
+    width: 100%;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.container-second>section>div{
+    margin: 0 auto;
+}
+.container-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-third{
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Panoramica_del_Centro_Histórico_de_San_Salvador.jpg/2560px-Panoramica_del_Centro_Histórico_de_San_Salvador.jpg); */
+    background-color: #e9ecef;
+    background-attachment: fixed;
+    height: auto;
+    padding: 9em;
+    /* margin-top: 9em;
+    margin-bottom: 9em; */
+    
+}
+.container-third>section{
+    padding-bottom: 9rem;
+    width: 100%;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.container-third>section>p{
+    display: block;
+    position: fixed;
+}
+.container-third>section>div{
+    margin: 0 auto;
+}
+
+.container-third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+    padding: 1em;
+    
+}
+.card{
+    margin: 0.5em;
+    border:none;
+    position: static;
+    
+}
+.card-third{
+    margin: 0.5em;
+    border:none;
+    position: static;
+    background-color: #e9ecef;
+    
+}
+
+.card > a{
+    margin: 1em;
+    
+}
+.card-third > a{
+    margin: 1em;
+    
+}
+.item{
+    margin: 1em;
+    display: flex;
+    max-width: 320px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+.item-third{
+    margin: 1em;
+    display: flex;
+    max-width: 320px;
+    background-color: #e9ecef;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.video{
+    height: 300px;
+    margin-top: 20px;
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+.video iframe{
+    width: 90%;
+    height: 100%;
+}
+.img{
+    width: 90%;
+    height: 200px;
+    background-size: conver;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 0.3em;
+    
+}
+.img-vestimenta{
+    background-image: url(http://2.bp.blogspot.com/_4MUfu_L59tY/TCwk6RSCPbI/AAAAAAAAABk/gnCLAb4YBuU/s1600/43296-40036.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.img-religion{
+    background-image: url("../../../img/cultura-arte/religion.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+.img-joyaCeren{
+    background-image: url("../../../img/Sitios\ arqueologicos\ de\ El\ Salvador/sitioCeren.jpg");
+    background-size: cover;
+    
+}
+
+.img-tazumal{
+    background-image: url("../../../img/Sitios\ arqueologicos\ de\ El\ Salvador/Ruinas_del_tazamal.jpg");
+    background-size: cover;
+}
+.img-sanAndres1{
+    background-image: url("../../../img/Sitios\ arqueologicos\ de\ El\ Salvador/San_Andres_1.jpg");
+    background-size: cover;
+}
+.second{
+    flex-direction: row;
+    gap: 1.6em;
+    
+}
+
+.text-center{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+table td{
+    text-align: justify;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+
+
+/*menu*/
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191825;
+    color: #fff;
+    padding: 5px;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-item {
+    background-color: #191825;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.title{
+    padding: 5px;
+}
+.menu li a:hover {
+    background-color: #FFA3FD;
+    color: #191825;
+}
+
+@media screen and (max-width: 768px) {
+    .burger-menu {
+    display: block;
+    }
+    .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #191825;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transition: all 0.3s ease;
+    }
+    .menu li {
+    margin: 0;
+    width: 100%;
+    }
+    .menu li a {
+    padding: 10px;
+    width: 100%;
+    justify-items: start;;
+    /* border-bottom: 1px solid #fff; */
+    }
+    .menu li:last-of-type a {
+    border-bottom: none;
+    }
+    .menu.show {
+    display: flex;
+    }
+    .container-second{
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5em;
+        height: auto;
+    }
+    .container-third{
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5em;
+        height: auto;
+    }
+
+}
+

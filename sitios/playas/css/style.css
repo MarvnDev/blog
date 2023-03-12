@@ -1,0 +1,380 @@
+:root {
+    --color:#191825;
+}
+body{
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.prueba, .other{
+
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../../../img/playas/container.png');
+    
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+}
+.inicio{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    padding: 1em;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 40px;
+}
+#titulo{
+    color:white;
+}
+h1{
+    margin:0.5em;
+    font-size: 700;
+}
+p{
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+    text-align: justify;
+
+}
+
+a{
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: var(--color);
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+}
+a:hover{
+    background-color: #E384FF;
+    color: #191825;
+    transition: all 0.3s ease;
+}
+
+footer{
+    background-color: #E384FF;
+    position: absolute;
+    width: 100%;
+    color: #191825;
+    padding: 20px;
+    text-align: center;
+}
+.blank, .other{
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+}
+.container-second{
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Panoramica_del_Centro_Histórico_de_San_Salvador.jpg/2560px-Panoramica_del_Centro_Histórico_de_San_Salvador.jpg); */
+    background-color: white;
+    background-attachment: fixed;
+    height: auto;
+    padding: 9em;
+    /* margin-top: 9em;
+    margin-bottom: 9em; */
+    
+}
+.container-second>section{
+    padding-bottom: 9rem;
+    width: 100%;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.container-second>section>div{
+    margin: 0 auto;
+}
+.container-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-third{
+    background-color: #e9ecef;
+    background-attachment: fixed;
+    height: auto;
+    padding: 9em;
+
+    
+}
+.container-third>section{
+    padding-bottom: 9rem;
+    width: 100%;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.container-third>section>p{
+    display: block;
+    position: fixed;
+}
+.container-third>section>div{
+    margin: 0 auto;
+}
+
+.container-third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+    padding: 1em;
+    
+}
+.card{
+    margin: 0.5em;
+    border:none;
+    position: static;
+    
+}
+.card-third{
+    margin: 0.5em;
+    border:none;
+    position: static;
+    background-color: #e9ecef;
+    
+}
+
+.card > a{
+    margin: 1em;
+    
+}
+.card-third > a{
+    margin: 1em;
+    
+}
+.item{
+    margin: 1em;
+    display: flex;
+    max-width: 320px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+.item-third{
+    margin: 1em;
+    display: flex;
+    max-width: 320px;
+    background-color: #e9ecef;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+
+.img{
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: conver;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 0.3em;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    height: 250px;   /* Altura del contenedor */
+}
+.container-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.map>iframe{
+    width: 100%;
+    height: 200px;
+}
+.container-video iframe{
+    margin: auto; /* Centra horizontalmente */
+    height: 100%;
+    width: 80%;
+}
+
+
+.img-uno{
+    background-image: url("../../../img/playas/santiago.jpg");
+    background-size: cover;
+
+}
+.img-dos{
+    background-image: url("../../../img/playas/metalio.jpg");
+    background-size: cover;
+    
+}
+
+.img-tres{
+    background-image: url("../../../img/playas/cobanos.jpg");
+    background-size: cover;
+}
+.img-cuatro{
+    background-image: url("../../../img/playas/palmarcito.jpg");
+    background-size: cover;
+}
+.img-cinco{
+    background-image: url("../../../img/playas/sunzal.jpg");
+    background-size: cover;
+}
+.second{
+    flex-direction: row;
+    gap: 1.6em;
+    
+}
+
+.text-center{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+table td{
+    text-align: justify;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+
+
+/*menu*/
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191825;
+    color: #fff;
+    padding: 5px;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-item {
+    background-color: #191825;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.title{
+    padding: 5px;
+}
+.menu li a:hover {
+    background-color: #FFA3FD;
+    color: #191825;
+}
+
+@media screen and (max-width: 768px) {
+    .burger-menu {
+    display: block;
+    }
+    .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #191825;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transition: all 0.3s ease;
+    }
+    .menu li {
+    margin: 0;
+    width: 100%;
+    }
+    .menu li a {
+    padding: 10px;
+    width: 100%;
+    justify-items: start;;
+    /* border-bottom: 1px solid #fff; */
+    }
+    .menu li:last-of-type a {
+    border-bottom: none;
+    }
+    .menu.show {
+    display: flex;
+    }
+    .container-second{
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5em;
+        height: auto;
+    }
+    .container-third{
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5em;
+        height: auto;
+    }
+    .map>iframe{
+        width: 80%;
+        height: 200px;
+    }
+    .container-second>section{
+        display: block;
+    
+    }
+    .container-third>section{
+        display: block;
+    }
+}
+
